@@ -2,8 +2,8 @@ import { Flex, Button, Heading, useColorMode, Slider, SliderTrack, SliderFilledT
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useContext } from 'react'
-import ColorsContext from '../contexts/ColorsContext'
-import { TimerContext } from '../contexts/TimerContext' //////////
+import { ColorsContext } from '../contexts/ColorsContext'
+import { TimerContext } from '../contexts/TimerContext'
 import { CurrentTimeContext } from '../contexts/CurrentTimeContext'
 import { ChallengesContext } from '../contexts/ChallengesContext'
 

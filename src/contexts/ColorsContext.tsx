@@ -6,9 +6,9 @@ interface ColorsContextData {
   hoverBgColor: string
 }
 
-const ColorsContext = createContext({} as ColorsContextData)
-
-export default ColorsContext
+// Context Code
+export const ColorsContext = createContext({} as ColorsContextData)
+//
 
 export function ColorsContextProvider({ children }: { children: ReactNode }) {
   const bgColor = useColorModeValue('gray.50', 'whiteAlpha.300')
